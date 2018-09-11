@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class IVRUnreal_4_13Target : TargetRules
+public class IVRUnreal_4_15Target : TargetRules
 {
-	public IVRUnreal_4_13Target(TargetInfo Target)
+	public IVRUnreal_4_15Target(TargetInfo Target)
 	{
 		Type = TargetType.Game;
 	}
@@ -20,6 +20,6 @@ public class IVRUnreal_4_13Target : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "IVRUnreal_4_13" } );
+		OutExtraModuleNames.AddRange( new string[] { "IVRUnreal_4_15" } );
 	}
 }

@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class IVRUnreal_4_13 : ModuleRules
+public class IVRUnreal_4_15 : ModuleRules
 {
-	public IVRUnreal_4_13(TargetInfo Target)
+	public IVRUnreal_4_15(TargetInfo Target)
 	{
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 

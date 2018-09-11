@@ -3,13 +3,13 @@
 #pragma once
 
 #include "GameFramework/GameMode.h"
-#include "IVRUnreal_4_13GameMode.generated.h"
+#include "IVRUnreal_4_15GameMode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class IVRUNREAL_4_13_API AIVRUnreal_4_13GameMode : public AGameMode
+class IVRUNREAL_4_15_API AIVRUnreal_4_15GameMode : public AGameMode
 {
 	GENERATED_BODY()
 	

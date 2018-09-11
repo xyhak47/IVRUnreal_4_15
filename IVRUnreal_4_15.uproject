@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "IVRUnreal_4_13",
+			"Name": "IVRUnreal_4_15",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
