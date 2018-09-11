@@ -1,0 +1,24 @@
+{
+	"FileVersion" : 3,
+
+	"FriendlyName" : "IVR",
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"CreatedBy" : "Immersion, Inc.",
+	"CreatedByURL" : "",
+	"EngineVersion" : "4.12",
+	"Description" : "Immersion HMD Plugin for Unreal Engine, AUTHOR: xyh",
+	"Category" : "Virtual Reality",
+	"EnabledByDefault" : true,
+	"Installed" : false,
+
+	"Modules" :
+	[
+		{
+			"Name" : "IVR",
+			"Type" : "Runtime",
+     		"LoadingPhase": "PostConfigInit",
+      		"WhitelistPlatforms": [ "Win64" ]
+		}
+	]
+}
